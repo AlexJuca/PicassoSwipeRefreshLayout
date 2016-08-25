@@ -30,10 +30,7 @@ Add this in your root `build.gradle` file (**not** your module `build.gradle` fi
 
 ```gradle
 allprojects {
-	repositories {
-		...
-		maven { url "https://jitpack.io" }
-	}
+	repositories { maven { url "http://dl.bintray.com/alexjuca/PicassoSwipeRefreshLayout" } }
 }
 ```
 
@@ -44,7 +41,7 @@ Add this to your module's `build.gradle` file:
 ```gradle
 dependencies {
 	...
-	compile 'com.github.alexjuca:PicassoSwipeRefreshLayout:0.2.0'
+	compile 'com.github.AlexJuca:PicassoSwipeRefreshLayout:1.0'
 	}
 }
 ```
